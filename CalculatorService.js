@@ -11,7 +11,7 @@ const MUL_SERVICE_IP_PORT = 'http://' + service_ip + ':31003';
 const DIV_SERVICE_IP_PORT = 'http://' + service_ip + ':31004';
 
 // FastAPI metrics endpoint
-const METRICS_SERVICE = 'http://25.6.3.79:50060/measures';
+const METRICS_SERVICE = 'http://25.6.3.133:50060/measures';
 
 // Names for operations
 function getOperationName(op) {
