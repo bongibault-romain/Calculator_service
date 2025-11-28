@@ -14,6 +14,8 @@ spec:
       labels:
         app: sum
     spec:
+      nodeSelector:
+        PoP: space_2
       imagePullSecrets:
       - name: repo-key
       containers:
@@ -55,6 +57,8 @@ spec:
       labels:
         app: sub
     spec:
+      nodeSelector:
+        PoP: space_2
       imagePullSecrets:
         - name: repo-key
       containers:
@@ -96,6 +100,8 @@ spec:
       labels:
         app: mul
     spec:
+      nodeSelector:
+        PoP: space_2
       imagePullSecrets:
         - name: repo-key
       containers:
@@ -137,6 +143,8 @@ spec:
       labels:
         app: div
     spec:
+      nodeSelector:
+        PoP: space_2
       imagePullSecrets:
         - name: repo-key
       containers:
@@ -178,6 +186,8 @@ spec:
       labels:
         app: calculator
     spec:
+      nodeSelector:
+        PoP: space_2
       imagePullSecrets:
         - name: repo-key
       containers:
